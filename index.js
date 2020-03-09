@@ -1,6 +1,7 @@
 var object = {}
-function updateObjectWithKeyAndValue(object, key, value) {
-  object.key = 'value';
-  object.assign( {}, object,{[key]: 'value'});
+var object2 = {}
+function updateObjectWithKeyAndValue( obj, key, value) {
+  obj.key = 'value';
+  object2.assign(obj);
   return object
 }
